@@ -3315,7 +3315,7 @@ h1.page-title + .tag-cloud-list {
   content: '';
 }
 #page-header.full_page {
-  height: 100vh;
+  height: 100px;
   background-attachment: fixed;
 }
 #page-header.full_page #site-info {
@@ -3891,8 +3891,8 @@ h1.page-title + .tag-cloud-list {
 #article-container.post-content h6:before {
   position: absolute;
   top: calc(50% - 7px);
-  color: #1f2d3d;
-  content: '\f1b2';
+  color: #00c4b6;
+  content: '\f13d';
   line-height: 1;
   -webkit-transition: all 0.2s ease-out;
   -moz-transition: all 0.2s ease-out;
