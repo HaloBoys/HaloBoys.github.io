@@ -132,7 +132,8 @@
   border-radius: 0px 0px 12px 12px;
 }
 
-#footer-wrap,.show {
+#footer-wrap,
+.show {
   backdrop-filter: blur(5px);
 }
 
