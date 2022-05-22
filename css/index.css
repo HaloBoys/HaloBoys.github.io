@@ -2428,15 +2428,15 @@ figure.highlight pre .javascript .function {
 }
 :root {
   --recent-post-bgcolor: #fff;
-  --article-content-bgcolor: #7f7f9a;
+  --article-content-bgcolor: #999dcf;
   --recent-post-triangle: #ddd;
-  --recent-post-cover-shadow: #ccc;
+  --recent-post-cover-shadow: #999dcf;
 }
 [data-theme="dark"] {
   --recent-post-bgcolor: #282c34;
   --article-content-bgcolor: #282c34;
   --recent-post-triangle: #282c34;
-  --recent-post-cover-shadow: #c9c9d2;
+  --recent-post-cover-shadow: #282c34;
 }
 .recent-posts {
   padding: 0 15px 0 15px;
