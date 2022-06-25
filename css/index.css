@@ -2428,9 +2428,9 @@ figure.highlight pre .javascript .function {
 }
 :root {
   --recent-post-bgcolor: #fff;
-  --article-content-bgcolor: #999dcf;
+  --article-content-bgcolor: #596275;
   --recent-post-triangle: #ddd;
-  --recent-post-cover-shadow: #999dcf;
+  --recent-post-cover-shadow: #596275;
 }
 [data-theme="dark"] {
   --recent-post-bgcolor: #282c34;
