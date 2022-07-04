@@ -1443,11 +1443,11 @@ hr:hover:before {
 }
 hr:before {
   position: absolute;
-  top: -10px;
+  top: 10px;
   left: 5%;
   z-index: 1;
   color: var(--hr-before-color);
-  content: '\f0c4';
+  content: '\f101';
   font-size: 20px;
   line-height: 1;
   -webkit-transition: all 1s ease-in-out;
@@ -1501,6 +1501,13 @@ a {
 }
 a:hover {
   color: #95afc0;
+}
+#site-title,
+#site-subtitle,
+#site-name,
+#aside-content .author-info__name,
+#aside-content .author-info__description {
+  font-family: Monaco, Consolas, '黑体', 'Courier New', monospace;
 }
 .is-center {
   text-align: center;
@@ -1668,7 +1675,7 @@ figure.highlight pre .javascript .function {
 #article-container pre,
 #article-container code {
   font-size: var(--global-font-size);
-  font-family: consolas, Menlo, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: Monaco, Consolas, '黑体', 'Courier New', monospace !important;
 }
 #article-container code {
   padding: 2px 4px;
@@ -2016,6 +2023,7 @@ figure.highlight pre .javascript .function {
   height: 100%;
   vertical-align: top;
   text-align: center;
+  font-family: Monaco, Consolas, '黑体', 'Courier New', monospace;
 }
 @media screen and (max-width: 768px) {
   .error404 #error-wrap .error-content .error-info {
