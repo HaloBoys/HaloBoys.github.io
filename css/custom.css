@@ -167,3 +167,29 @@
 body {
   font-family: 'Monaco', 'Chalk', sans-serif;
 }
+
+/* 更改文章 h1~6 级标题前 icon 图标 */
+
+#article-container h1:before {
+  content: "H₁" !important;
+}
+
+#article-container h2:before {
+  content: "H₂" !important;
+}
+
+#article-container h3:before {
+  content: "H₃" !important;
+}
+
+#article-container h4:before {
+  content: "H₄" !important;
+}
+
+#article-container h5:before {
+  content: "H₅" !important;
+}
+
+#article-container h6:before {
+  content: "H₆" !important;
+}
