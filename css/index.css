@@ -6619,13 +6619,13 @@ blockquote.pullquote.right {
 }
 .search-dialog {
   position: fixed;
-  top: 100px;
+  top: 110px;
   left: 50%;
   z-index: 1001;
   display: none;
-  margin-left: -300px;
+  margin-left: -500px;
   padding: 20px;
-  width: 600px;
+  width: 1000px;
   border-radius: 12px;
   background: var(--search-bg);
 }
