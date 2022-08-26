@@ -2427,7 +2427,7 @@ figure.highlight pre .javascript .function {
   --recent-post-cover-shadow: #282c34;
 }
 .recent-posts {
-  padding: 0 15px 0 15px;
+  padding: 15px 15px 0 15px;
 }
 .recent-posts .recent-post-item {
   margin-bottom: 18px;
