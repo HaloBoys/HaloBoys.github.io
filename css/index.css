@@ -6619,7 +6619,7 @@ blockquote.pullquote.right {
 }
 .search-dialog {
   position: fixed;
-  top: 110px;
+  top: 125px;
   left: 50%;
   z-index: 1001;
   display: none;
