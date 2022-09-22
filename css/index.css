@@ -2417,13 +2417,11 @@ figure.highlight pre .javascript .function {
 :root {
   --recent-post-bgcolor: #fff;
   --article-content-bgcolor: #596275;
-  --recent-post-triangle: #ddd;
   --recent-post-cover-shadow: #596275;
 }
 [data-theme="dark"] {
   --recent-post-bgcolor: #282c34;
   --article-content-bgcolor: #282c34;
-  --recent-post-triangle: #282c34;
   --recent-post-cover-shadow: #282c34;
 }
 .recent-posts {
@@ -2666,22 +2664,6 @@ figure.highlight pre .javascript .function {
     overflow: hidden;
     border: 0px solid;
   }
-  .recent-post-item .recent-post-content::before {
-    content: "";
-    width: 0;
-    height: 0;
-    background: transparent;
-    position: absolute;
-    z-index: 3;
-    top: calc(50% - 10px);
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    -webkit-transition: all 0.5s cubic-bezier(0.59, 0.01, 0.48, 1.17);
-    -moz-transition: all 0.5s cubic-bezier(0.59, 0.01, 0.48, 1.17);
-    -o-transition: all 0.5s cubic-bezier(0.59, 0.01, 0.48, 1.17);
-    -ms-transition: all 0.5s cubic-bezier(0.59, 0.01, 0.48, 1.17);
-    transition: all 0.5s cubic-bezier(0.59, 0.01, 0.48, 1.17);
-  }
   .recent-post-item .recent-post-content.both,
   .recent-post-item .recent-post-content.right {
     -webkit-box-orient: horizontal;
@@ -2700,15 +2682,9 @@ figure.highlight pre .javascript .function {
   .recent-post-item .recent-post-content.both::before,
   .recent-post-item .recent-post-content.right::before {
     left: calc(23.07% + 40px);
-    border-left: 6px solid var(--recent-post-triangle);
   }
   .recent-post-item .recent-post-content.both .recent-post-info::before,
   .recent-post-item .recent-post-content.right .recent-post-info::before {
-    background: -webkit-linear-gradient(left, var(--recent-post-cover-shadow), transparent);
-    background: -moz-linear-gradient(left, var(--recent-post-cover-shadow), transparent);
-    background: -o-linear-gradient(left, var(--recent-post-cover-shadow), transparent);
-    background: -ms-linear-gradient(left, var(--recent-post-cover-shadow), transparent);
-    background: linear-gradient(to right, var(--recent-post-cover-shadow), transparent);
     left: calc(100% - 1px);
   }
   .recent-post-item .recent-post-content.both .article-content::before,
@@ -2747,14 +2723,8 @@ figure.highlight pre .javascript .function {
   }
   .recent-post-item .recent-post-content.left::before {
     right: calc(23.07% + 40px);
-    border-right: 6px solid var(--recent-post-triangle);
   }
   .recent-post-item .recent-post-content.left .recent-post-info::before {
-    background: -webkit-linear-gradient(right, var(--recent-post-cover-shadow), transparent);
-    background: -moz-linear-gradient(right, var(--recent-post-cover-shadow), transparent);
-    background: -o-linear-gradient(right, var(--recent-post-cover-shadow), transparent);
-    background: -ms-linear-gradient(right, var(--recent-post-cover-shadow), transparent);
-    background: linear-gradient(to left, var(--recent-post-cover-shadow), transparent);
     right: calc(100% - 1px);
   }
   .recent-post-item .recent-post-content.left .article-content::before {
@@ -2771,7 +2741,7 @@ figure.highlight pre .javascript .function {
     padding: 0px 70px 0px 20px;
   }
   .recent-post-item .article-content {
-    width: 30%;
+    width: 25%;
     height: 200px;
     left: 0;
     -webkit-box-align: center;
@@ -2781,24 +2751,13 @@ figure.highlight pre .javascript .function {
     -webkit-align-items: center;
     align-items: center;
   }
-  .recent-post-item .article-content::before {
-    content: "";
-    width: 0;
-    height: 0;
-    background: transparent;
-    position: absolute;
-    z-index: 2;
-    top: 0;
-    border-top: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-  }
   .recent-post-item .recent-post-info {
     width: 60%;
     height: 200px;
   }
   .recent-post-item .recent-post-info::before {
     content: "";
-    width: 200px;
+    width: 440px;
     height: 200px;
     position: absolute;
     z-index: 1;

@@ -178,3 +178,10 @@ body {
 #article-container h6:before {
   content: "H₆" !important;
 }
+
+/* pagination 颜色 bug 修复 */
+
+.pagination {
+  background-color: #20212b;
+  border-radius: 10px;
+}
