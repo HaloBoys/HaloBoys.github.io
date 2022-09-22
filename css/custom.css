@@ -1,10 +1,3 @@
-/* SAOUI字体精简包，仅73KB */
-@font-face {
-  font-family: 'SAOUI';
-  src: url('https://npm.elemecdn.com/akilar-candyassets/fonts/SAOUI.ttf');
-  font-display: swap;
-}
-
 /* 应用于除了作者卡片以为的所有侧栏卡片 */
 .card-widget:not(.card-info) {
   overflow: visible !important;
@@ -13,7 +6,7 @@
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
   border-top-left-radius: 0px !important;
-  font-family: 'SAOUI';
+  font-family: 'Monaco';
   color: rgba(60, 60, 61, 0.7);
   font-weight: bold;
 }
@@ -27,7 +20,7 @@
 
 /* 定义标题栏的定位方式为绝对定位 */
 .item-headline {
-  font-family: 'SAOUI';
+  font-family: 'Monaco';
   color: rgba(60, 60, 61, 0.7);
   font-weight: bold;
   position: absolute;
@@ -144,14 +137,6 @@
   font-family: 'Monaco';
   /* 字体名自定义即可 */
   src: url('../fonts/Monaco.ttf');
-  /* 字体文件路径 */
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Ink';
-  /* 字体名自定义即可 */
-  src: url('../fonts/Ink.ttf');
   /* 字体文件路径 */
   font-display: swap;
 }
