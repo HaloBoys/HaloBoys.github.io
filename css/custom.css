@@ -185,3 +185,9 @@ body {
   background-color: #20212b;
   border-radius: 10px;
 }
+
+/* 搜索框自定义样式 */
+
+.search-dialog {
+  height: 1000px;
+}

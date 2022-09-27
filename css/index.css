@@ -6693,8 +6693,9 @@ blockquote.pullquote.right {
   font-weight: bold;
 }
 #local-search .search-dialog .search-result-list {
+  margin-top: 20px;
   overflow-y: auto;
-  max-height: 210px;
+  max-height: 880px;
 }
 @media screen and (max-width: 768px) {
   #local-search .search-dialog .search-result-list {
