@@ -191,3 +191,12 @@ body {
 .search-dialog {
   height: 1000px;
 }
+
+#article-container code {
+  /* font-size: 16px; */
+  color: #61afef
+}
+
+#article-container a {
+  margin-left: 5px;
+}

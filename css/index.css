@@ -1328,7 +1328,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 14px;
+  --global-font-size: 16px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #afb5c4;
@@ -1369,7 +1369,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  font-family: Monaco, Consolas, '黑体', 'Courier New', monospace;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -1395,11 +1395,11 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(0deg, rgba(99, 109, 134,1) 10%, rgba(103, 97, 161,1) 90%);;
-  background: -moz-linear-gradient(0deg, rgba(99, 109, 134,1) 10%, rgba(103, 97, 161,1) 90%);;
-  background: -o-linear-gradient(0deg, rgba(99, 109, 134,1) 10%, rgba(103, 97, 161,1) 90%);;
-  background: -ms-linear-gradient(0deg, rgba(99, 109, 134,1) 10%, rgba(103, 97, 161,1) 90%);;
-  background: linear-gradient(90deg, rgba(99, 109, 134,1) 10%, rgba(103, 97, 161,1) 90%);;
+  background: -webkit-linear-gradient(left, rgba(127, 127, 213,1),rgba(134, 168, 231,1),rgba(145, 234, 228,1));;
+  background: -moz-linear-gradient(left, rgba(127, 127, 213,1),rgba(134, 168, 231,1),rgba(145, 234, 228,1));;
+  background: -o-linear-gradient(left, rgba(127, 127, 213,1),rgba(134, 168, 231,1),rgba(145, 234, 228,1));;
+  background: -ms-linear-gradient(left, rgba(127, 127, 213,1),rgba(134, 168, 231,1),rgba(145, 234, 228,1));;
+  background: linear-gradient(to right, rgba(127, 127, 213,1),rgba(134, 168, 231,1),rgba(145, 234, 228,1));;
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -1654,7 +1654,7 @@ figure.highlight pre .javascript .function {
 }
 #article-container pre,
 #article-container code {
-  font-size: var(--global-font-size);
+  font-size: 16px;
   font-family: Monaco, Consolas, '黑体', 'Courier New', monospace !important;
 }
 #article-container code {
@@ -1682,7 +1682,7 @@ figure.highlight pre .javascript .function {
 #article-container figure.highlight figcaption,
 #article-container figure.highlight .caption {
   padding: 6px 0 2px 14px;
-  font-size: var(--global-font-size);
+  font-size: 16px;
   line-height: 1em;
 }
 #article-container figure.highlight figcaption a,
@@ -1714,7 +1714,7 @@ figure.highlight pre .javascript .function {
   height: 2.15em;
   background: var(--hltools-bg);
   color: var(--hltools-color);
-  font-size: var(--global-font-size);
+  font-size: 16px;
 }
 #article-container .highlight-tools.closed ~ * {
   display: none;
@@ -1841,7 +1841,7 @@ figure.highlight pre .javascript .function {
   width: 100%;
   background: var(--hlexpand-bg);
   text-align: center;
-  font-size: var(--global-font-size);
+  font-size: 16px;
   cursor: pointer;
 }
 #article-container .code-expand-btn i {
@@ -6221,44 +6221,44 @@ blockquote.pullquote.right {
   margin-top: -20px;
 }
 [data-theme='dark'] {
-  --global-bg: #0d0d0d;
+  --global-bg: #24272e;
   --font-color: rgba(255,255,255,0.7);
   --hr-border: rgba(255,255,255,0.4);
   --hr-before-color: rgba(255,255,255,0.7);
-  --search-bg: #121212;
+  --search-bg: #282c34;
   --search-input-color: rgba(255,255,255,0.7);
   --search-result-title: rgba(255,255,255,0.9);
-  --preloader-bg: #0d0d0d;
+  --preloader-bg: #24272e;
   --preloader-color: rgba(255,255,255,0.7);
   --tab-border-color: #2c2c2c;
   --tab-botton-bg: #2c2c2c;
   --tab-botton-color: rgba(255,255,255,0.7);
-  --tab-button-hover-bg: #383838;
-  --tab-button-active-bg: #121212;
-  --card-bg: #121212;
-  --sidebar-bg: #121212;
-  --btn-hover-color: #787878;
+  --tab-button-hover-bg: #49515f;
+  --tab-button-active-bg: #282c34;
+  --card-bg: #282c34;
+  --sidebar-bg: #282c34;
+  --btn-hover-color: #868fa2;
   --btn-color: rgba(255,255,255,0.7);
-  --btn-bg: #1f1f1f;
-  --text-bg-hover: #383838;
+  --btn-bg: #333842;
+  --text-bg-hover: #49515f;
   --light-grey: rgba(255,255,255,0.7);
   --dark-grey: rgba(255,255,255,0.2);
   --white: rgba(255,255,255,0.9);
   --text-highlight-color: rgba(255,255,255,0.9);
   --blockquote-color: rgba(255,255,255,0.7);
-  --blockquote-bg: #2c2c2c;
-  --reward-pop: #2c2c2c;
+  --blockquote-bg: #3e4451;
+  --reward-pop: #3e4451;
   --toc-link-color: rgba(255,255,255,0.6);
   --hl-color: rgba(255,255,255,0.7);
-  --hl-bg: #171717;
-  --hltools-bg: #1a1a1a;
+  --hl-bg: #2c313a;
+  --hltools-bg: #2f333d;
   --hltools-color: #90a4ae;
-  --hlnumber-bg: #171717;
+  --hlnumber-bg: #2c313a;
   --hlnumber-color: rgba(255,255,255,0.4);
-  --hlscrollbar-bg: #1f1f1f;
-  --hlexpand-bg: linear-gradient(180deg, rgba(23,23,23,0.6), rgba(23,23,23,0.9));
-  --scrollbar-color: #1f1f1f;
-  --timeline-bg: #1f1f1f;
+  --hlscrollbar-bg: #333842;
+  --hlexpand-bg: linear-gradient(180deg, rgba(44,49,58,0.6), rgba(44,49,58,0.9));
+  --scrollbar-color: #333842;
+  --timeline-bg: #333842;
 }
 [data-theme='dark'] #web_bg:before,
 [data-theme='dark'] #footer:before,
@@ -6273,7 +6273,7 @@ blockquote.pullquote.right {
   background: #2c2c2c;
 }
 [data-theme='dark'] #article-container pre > code {
-  background: #171717;
+  background: #2c313a;
 }
 [data-theme='dark'] #article-container figure.highlight {
   -webkit-box-shadow: none;
@@ -6292,7 +6292,7 @@ blockquote.pullquote.right {
 }
 [data-theme='dark'] #page-header.nav-fixed > #nav,
 [data-theme='dark'] #page-header.not-top-img > #nav {
-  background: rgba(18,18,18,0.8);
+  background: rgba(40,44,52,0.8);
   -webkit-box-shadow: 0 5px 6px -5px rgba(133,133,133,0);
   box-shadow: 0 5px 6px -5px rgba(133,133,133,0);
 }
@@ -6332,7 +6332,7 @@ blockquote.pullquote.right {
   color: rgba(255,255,255,0.7);
 }
 [data-theme='dark'] #disqus_thread #dsqjs .dsqjs-order-label {
-  background-color: #1f1f1f;
+  background-color: #333842;
 }
 [data-theme='dark'] #disqus_thread #dsqjs .dsqjs-post-body {
   color: rgba(255,255,255,0.7);
@@ -6345,14 +6345,14 @@ blockquote.pullquote.right {
   color: rgba(255,255,255,0.7);
 }
 [data-theme='dark'] #artitalk_main #lazy {
-  background: #121212;
+  background: #282c34;
 }
 [data-theme='dark'] #operare_artitalk .c2 {
-  background: #121212;
+  background: #282c34;
 }
 @media screen and (max-width: 900px) {
   [data-theme='dark'] #card-toc {
-    background: #1f1f1f;
+    background: #333842;
   }
 }
 .read-mode {
