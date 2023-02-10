@@ -31,64 +31,6 @@
     
     
     <entry>
-      <title>HTML Interview</title>
-      <link href="/2022/11/09TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_HTML%E9%9D%A2%E8%AF%95%E9%A2%98/f75a91e9/"/>
-      <url>/2022/11/09TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_HTML%E9%9D%A2%E8%AF%95%E9%A2%98/f75a91e9/</url>
-      
-        <content type="html"><![CDATA[<h1 id="src和href的区别"><a href="#src和href的区别" class="headerlink" title="src和href的区别"></a>src和href的区别</h1><p>src 用于替换当前元素，href 用于在当前文档和引用资源之间确立联系。 </p><ol><li>src 是 source 的缩写，指向<code>外部资源</code>的位置，指向的内容将会嵌入到文档中当前标签所在位置；在请求 src 资源时会将其指向的资源下载并应用到文档内，例如 <code>js 脚本</code>，<code>img 图片</code>和 <code>frame</code> 等元素。 </li><li>href 是 Hypertext Reference 的缩写，指向<code>网络资源</code>所在位置，建立和当前元素（锚点）或当前文档（链接）之间的链接，如果在文档中添加，那么浏览器会识别该文档为 css 文件，就会并行下载资源并且不会停止对当前文档的处理。（异步） 这也是为什么建议使用 link 方式来加载 css，而不是使用@import 方式。</li></ol><h1 id="对HTML语义化的理解"><a href="#对HTML语义化的理解" class="headerlink" title="对HTML语义化的理解"></a>对HTML语义化的理解</h1><p>语义化是指根据内容的结构化（内容语义化），选择合适的标签（代码语义化）。通俗来讲就是用正确的标签做正确的事情。</p><p>语义化的优点：</p><ul><li>对机器友好，带有语义的文字表现力丰富，更适合搜索引擎的爬虫爬取有效信息，<code>有利于SEO</code>。除此之外，语义类还支持读屏软件，根据文章可以自动生成目录；</li><li>对开发者友好，使用语义类标签<code>增强了可读性</code>，结构更加清晰，开发者能清晰的看出网页的结构，便于团队的开发与维护。</li></ul><p>常见的语义化标签：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">header</span>&gt;</span><span class="tag">&lt;/<span class="name">header</span>&gt;</span>  头部</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">nav</span>&gt;</span><span class="tag">&lt;/<span class="name">nav</span>&gt;</span>  导航栏</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span>  区块（有语义化的div）</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">main</span>&gt;</span><span class="tag">&lt;/<span class="name">main</span>&gt;</span>  主要区域</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">article</span>&gt;</span><span class="tag">&lt;/<span class="name">article</span>&gt;</span>  主要内容</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">aside</span>&gt;</span><span class="tag">&lt;/<span class="name">aside</span>&gt;</span>  侧边栏</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">footer</span>&gt;</span><span class="tag">&lt;/<span class="name">footer</span>&gt;</span>  底部</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-          <category> HTML </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Interview </tag>
-            
-            <tag> html(5) </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Vue Interview</title>
-      <link href="/2022/11/08TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_Vue%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e6/"/>
-      <url>/2022/11/08TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_Vue%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e6/</url>
-      
-        <content type="html"><![CDATA[<h1 id="说一下-vue-生命周期（钩子函数）"><a href="#说一下-vue-生命周期（钩子函数）" class="headerlink" title="说一下 vue 生命周期（钩子函数）"></a>说一下 vue 生命周期（钩子函数）</h1><p>三个阶段 </p><ol><li>挂载阶段：beforeCreate、created、beforeMount、mounted </li><li>更新阶段：beforeUpdate、updated </li><li>销毁阶段：beforeDestroy、destroyed </li></ol><p>每个阶段的特性：</p><ol><li>🎋 beforeCreate（创建前）：数据观测和初始化事件还未开始，此时 data 的响应式追踪、event/watcher 都还没有被设置，也就是说<code>不能访问到 data、computed、watch、methods 上的方法和数据</code>。</li><li>🎋 created（创建后） ：实例创建完成，实例上配置的 options 包括 <code>data、computed、watch、methods 等都配置完成，</code>但是此时渲染得节点还未挂载到 DOM，所以不能访问到 $el 属性。</li><li>🎋 beforeMount（挂载前）：在挂载开始之前被调用，相关的 <code>render 函数首次被调用</code>。实例已完成以下的配置：编译模板，把data里面的数据和模板生成html。此时还没有挂载html到页面上。</li><li>🎋 mounted（挂载后）：在 el被新创建的 vm.$el 替换，并挂载到实例上去之后调用。实例已完成以下的配置：用上面编译好的html内容替换el属性指向的DOM对象。完成模板中的html渲染到html 页面中。此过程中进行ajax交互。</li><li>🎋 beforeUpdate（更新前）：响应式数据更新时调用，此时虽然响应式数据更新了，但是对应的真实 DOM 还没有被渲染。</li><li>🎋 updated（更新后） ：在由于数据更改导致的虚拟DOM重新渲染和打补丁之后调用。此时 DOM 已经根据响应式数据的变化更新了。调用时，组件 DOM已经更新，所以可以执行依赖于DOM的操作。然而在大多数情况下，应该避免在此期间更改状态，因为这可能会导致更新无限循环。该钩子在服务器端渲染期间不被调用。</li><li>🎋 beforeDestroy（销毁前）：实例销毁之前调用。这一步，实例仍然完全可用，this 仍能获取到实例。</li><li>🎋 destroyed（销毁后）：实例销毁后调用。调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁。该钩子在服务端渲染期间不被调用。</li></ol><h1 id="Vue-子组件和父组件执行顺序"><a href="#Vue-子组件和父组件执行顺序" class="headerlink" title="Vue 子组件和父组件执行顺序"></a>Vue 子组件和父组件执行顺序</h1><p>加载渲染过程：</p><ol><li>父组件 beforeCreate</li><li>父组件 created</li><li>父组件 beforeMount</li><li>子组件 beforeCreate</li><li>子组件 created</li><li>子组件 beforeMount</li><li>子组件 mounted</li><li>父组件 mounted</li></ol><p>更新过程：</p><ol><li>父组件 beforeUpdate</li><li>子组件 beforeUpdate</li><li>子组件 updated</li><li>父组件 updated</li></ol><p>销毁过程：</p><ol><li>父组件 beforeDestroy</li><li>子组件 beforeDestroy</li><li>子组件 destroyed</li><li>父组件 destoryed</li></ol><h1 id="说一下组件通信"><a href="#说一下组件通信" class="headerlink" title="说一下组件通信"></a>说一下组件通信</h1><p>组件通信方式大体有以下 8 种：</p><ol><li>props</li><li>ref</li><li>$emit / $on（自定义事件）</li><li>$children / $parent</li><li>$attrs / $listeners</li><li>$root</li><li>eventbus</li><li>vuex</li></ol><p>组件之间关系划分：</p><p>父子组件：</p><ul><li>props （父传子）</li><li>ref （父传子）</li><li>$emit（子传父）/ $on</li><li>$parent / $children</li><li>$attrs（爷孙之间） / $listeners</li></ul><p>任意组件</p><ul><li>eventbus（全局事件总线）</li><li>vuex</li><li>provide / inject</li><li>$root</li></ul><p>兄弟组件：</p><ul><li>$parent</li><li>$root</li><li>eventbus</li><li>vuex</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-          <category> Vue </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Interview </tag>
-            
-            <tag> vue </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>JavaScript 原型与原型链</title>
       <link href="/2022/11/08%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF_JavaScript_JavaScript%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/f75e92e9/"/>
       <url>/2022/11/08%E5%89%8D%E7%AB%AF/%E5%89%8D%E7%AB%AF_JavaScript_JavaScript%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE/f75e92e9/</url>
@@ -139,64 +81,6 @@
             <tag> js </tag>
             
             <tag> 算法 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>CSS Interview</title>
-      <link href="/2022/10/21TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_CSS%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e9/"/>
-      <url>/2022/10/21TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_CSS%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e9/</url>
-      
-        <content type="html"><![CDATA[<h1 id="CSS选择器及其优先级及权重计算方式"><a href="#CSS选择器及其优先级及权重计算方式" class="headerlink" title="CSS选择器及其优先级及权重计算方式"></a>CSS选择器及其优先级及权重计算方式</h1><div class="table-container"><table><thead><tr><th>选择器</th><th>格式</th><th>优先级权重</th></tr></thead><tbody><tr><td>id选择器</td><td>#id</td><td>100</td></tr><tr><td>类选择器</td><td>.classname</td><td>10</td></tr><tr><td>属性选择器</td><td>a[ref=”eee”]</td><td>10</td></tr><tr><td>伪类选择器</td><td>li:last-child</td><td>10</td></tr><tr><td>标签选择器</td><td>div</td><td>1</td></tr><tr><td>伪元素选择器</td><td>li:after</td><td>1</td></tr><tr><td>相邻兄弟选择器</td><td>h1+p</td><td>0</td></tr><tr><td>子选择器</td><td>ul&gt;li</td><td>0</td></tr><tr><td>后代选择器</td><td>li a</td><td>0</td></tr><tr><td>通配符选择器</td><td>*</td><td>0</td></tr></tbody></table></div><p>对于选择器的优先级：</p><ul><li>标签选择器、伪元素选择器：1；</li><li>类选择器、伪类选择器、属性选择器：10；</li><li>id 选择器：100；</li><li>内联样式：1000；</li></ul><p>注意事项：</p><ul><li>!important 声明的样式的优先级最高；</li><li>如果优先级相同，则最后出现的样式生效；</li><li>继承得到的样式的优先级最低；</li><li>通用选择器（*）、子选择器（&gt;）和相邻同胞选择器（+）并不在这四个等级中，所以它们的权值都为 0 ；</li><li>样式表的来源不同时，优先级顺序为：内联样式 &gt; 内部样式 &gt; 外部样式 &gt; 浏览器用户自定义样式 &gt; 浏览器默认样式。</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-          <category> CSS </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> css(3) </tag>
-            
-            <tag> Interview </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>JavaScript Interview</title>
-      <link href="/2022/10/11TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_JavaScript%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e9/"/>
-      <url>/2022/10/11TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_JavaScript%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e9/</url>
-      
-        <content type="html"><![CDATA[<h1 id="两个异步请求数据操作怎么合并"><a href="#两个异步请求数据操作怎么合并" class="headerlink" title="两个异步请求数据操作怎么合并"></a>两个异步请求数据操作怎么合并</h1><blockquote><p>业务代码经常会有 两个不一样的请求，拿到数据后合并成新数组的操作。<br>但是在异步请求中我们不知道哪个请求的回调更快返回，从而使代码的合并时间无法确定。这就需要在两个异步请求都完成后再做数据处理。</p></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//定义两个http请求方法</span></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">getList1</span> = (<span class="params"></span>)=&gt;&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">res,rej</span>) =&gt;</span>&#123;</span><br><span class="line">        <span class="comment">//省去get方法获取过程</span></span><br><span class="line">        .<span class="title function_">then</span>(<span class="function">(<span class="params">json</span>) =&gt;</span> <span class="title function_">resolve</span>(json))</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">getList2</span> = (<span class="params"></span>)=&gt;&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">res,rej</span>) =&gt;</span>&#123;</span><br><span class="line">        <span class="comment">//省去get方法获取过程</span></span><br><span class="line">        .<span class="title function_">then</span>(<span class="function">(<span class="params">json</span>) =&gt;</span> <span class="title function_">resolve</span>(json))</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title class_">Promise</span>.<span class="title function_">all</span>([<span class="title function_">getList1</span>(),<span class="title function_">getList2</span>()]).<span class="title function_">then</span>(<span class="function"><span class="params">value</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="comment">//第一个请求的数据</span></span><br><span class="line">    <span class="keyword">const</span> x = value[<span class="number">0</span>];</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//第二个请求的数据</span></span><br><span class="line">    <span class="keyword">const</span> y = value[<span class="number">1</span>];</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//合并操作</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">const</span> i <span class="keyword">of</span> x)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">const</span> k <span class="keyword">of</span> y)&#123;</span><br><span class="line">          <span class="comment">//Todo</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><h1 id="Js-中布尔值为-false-的六种情况"><a href="#Js-中布尔值为-false-的六种情况" class="headerlink" title="Js 中布尔值为 false 的六种情况"></a>Js 中布尔值为 false 的六种情况</h1><ol><li>undefined（未定义，找不到值时出现）</li><li>null（代表空值）</li><li>false（布尔值的false，字符串”false”布尔值为true）</li><li>0（数字0，字符串 “0” 布尔值为 true）</li><li>NaN（无法计算结果时出现，表示”非数值”；但是 typeof NaN === “number”）</li><li>“”（双引号）或 ‘’（单引号）（空字符串，中间有空格时为 true）</li></ol><p>注意：空数组空对象，负值转的布尔值时都为 true </p><h1 id="普通事件绑定和事件流绑定有啥区别（中级）"><a href="#普通事件绑定和事件流绑定有啥区别（中级）" class="headerlink" title="普通事件绑定和事件流绑定有啥区别（中级）"></a>普通事件绑定和事件流绑定有啥区别（中级）</h1><p>普通事件绑定</p><ul><li>如果给同⼀个元素绑定了两次或者多次相同类型的事件，那么后⾯的绑定会<code>覆盖</code>前⾯的绑定。</li><li><code>不支持dom事件流</code>（捕获-目标-冒泡）。</li></ul><p>事件流绑定</p><ul><li>如果说给同⼀个元素绑定了两次或者多次相同类型的事件，所以的绑定将会<code>依次触发</code>。</li><li><code>支持dom事件流</code>（捕获-目标-冒泡）。</li><li>不加<code>on</code>事件。</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">addEvent</span>(<span class="params">obj,type,callBack</span>)&#123;</span><br><span class="line">    <span class="keyword">if</span>(obj.<span class="property">addEventListener</span>)&#123;</span><br><span class="line">        obj.<span class="title function_">addEventListener</span>(type,callBack);</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        obj.<span class="title function_">attachEvent</span>(<span class="string">&quot;on&quot;</span>+type,callBack);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">addEvent</span>(<span class="variable language_">document</span>,<span class="string">&quot;click&quot;</span>,<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="title function_">alert</span>(<span class="string">&quot;兼容写法&quot;</span>)&#125;);</span><br></pre></td></tr></table></figure><h1 id="如何阻止事件冒泡和默认事件（中级）"><a href="#如何阻止事件冒泡和默认事件（中级）" class="headerlink" title="如何阻止事件冒泡和默认事件（中级）"></a>如何阻止事件冒泡和默认事件（中级）</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 阻止默认事件(兼容写法)</span></span><br><span class="line">e.<span class="property">preventdefault</span> ? e.<span class="title function_">preventdefault</span>() : <span class="keyword">return</span> value=<span class="literal">false</span> </span><br><span class="line"><span class="comment">// 阻止事件冒泡(兼容写法)</span></span><br><span class="line">e.<span class="property">stoppropagation</span> ? e.<span class="title function_">stoppropagation</span>() : e.<span class="property">cancelbubble</span>=<span class="literal">true</span></span><br></pre></td></tr></table></figure><h1 id="document-load-和-document-ready-的区别（初级）"><a href="#document-load-和-document-ready-的区别（初级）" class="headerlink" title="document load 和 document ready 的区别（初级）"></a>document load 和 document ready 的区别（初级）</h1><ul><li>Document.onload 是在<code>结构和样式加载完</code>才执⾏ js。</li><li>window.onload：不仅仅要在<code>结构和样式加载完</code>，还要执⾏完所有的<code>样式、图片</code>这些资源文件，全部 加载完才会触发window.onload事件。</li><li>Document.ready 原⽣种没有这个⽅法，jquery 中有 <code>$().ready(function)</code>。</li></ul><h1 id="undefined-的三种情况（初级）"><a href="#undefined-的三种情况（初级）" class="headerlink" title="undefined 的三种情况（初级）"></a>undefined 的三种情况（初级）</h1><ol><li>⼀个变量定义了却没有被赋值。</li><li>⼀个对象上不存在的属性或者⽅法。</li><li>⼀个数组中没有被赋值的元素。</li></ol><h1 id="对象模型-BOM-里常用的对象（初级）"><a href="#对象模型-BOM-里常用的对象（初级）" class="headerlink" title="对象模型 BOM 里常用的对象（初级）"></a>对象模型 BOM 里常用的对象（初级）</h1><ul><li>Window</li><li>document</li><li>location</li><li>screen</li><li>history</li><li>navigator</li></ul><h1 id="会造成内存泄漏的情况（中级）"><a href="#会造成内存泄漏的情况（中级）" class="headerlink" title="会造成内存泄漏的情况（中级）"></a>会造成内存泄漏的情况（中级）</h1><ol><li>setTimeout的第⼀个参数使⽤字符串⽽非函数的话，会引发内存泄漏。</li><li>闭包</li></ol><h1 id="什么是-jsonp（中级）"><a href="#什么是-jsonp（中级）" class="headerlink" title="什么是 jsonp（中级）"></a>什么是 jsonp（中级）</h1><ul><li>jsonp 并不是⼀种数据格式，而json是一种数据格式。</li><li>jsonp 是⽤来<code>解决跨域获取数据</code>的⼀种解决⽅案。<br>具体是通过<code>动态创建script标</code>，通过标签的src属性获取js文件中的js脚本，<br>该脚本的内容是⼀个函数调⽤，参数就是服务器返回的数据，为了处理这些返回的数据，需要事先在⻚⾯定义好回调函数，本质上使⽤的并不是ajax技术。</li></ul><h1 id="生成随机数（初级）"><a href="#生成随机数（初级）" class="headerlink" title="生成随机数（初级）"></a>生成随机数（初级）</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Math</span>.<span class="title function_">round</span>(<span class="title class_">Math</span>.<span class="title function_">random</span>()*差值)+最小的值</span><br></pre></td></tr></table></figure><h1 id="link-与-import-的区别（初级）"><a href="#link-与-import-的区别（初级）" class="headerlink" title="link 与 import 的区别（初级）"></a>link 与 import 的区别（初级）</h1><ul><li>link 不仅仅可以加载 css，import 只能加载css。</li><li>link 同时加载，import 先载入页面内容。</li><li>link 无兼容问题。</li><li>link ⽀持使⽤ Javascript 控制 DOM 去改变样式；⽽ @import不⽀持。</li></ul><h1 id="如何优化自己的代码（中级）"><a href="#如何优化自己的代码（中级）" class="headerlink" title="如何优化自己的代码（中级）"></a>如何优化自己的代码（中级）</h1><ul><li>重复使用。</li><li>避免过多使用全局变量。</li><li>闭包中变量的释放。</li><li>适当的注释。</li></ul><h1 id="什么是-DOM-事件流？什么是事件委托-（中级）"><a href="#什么是-DOM-事件流？什么是事件委托-（中级）" class="headerlink" title="什么是 DOM 事件流？什么是事件委托?（中级）"></a>什么是 DOM 事件流？什么是事件委托?（中级）</h1><p>DOM 事件流</p><ul><li>分为三个阶段<ul><li>捕获阶段</li><li>目标阶段</li><li>冒泡阶段</li></ul></li><li>在 addeventListener() 的第三个参数 useCapture 设为 true，就会在捕获阶段运行，默认是false冒泡。</li></ul><p>事件委托</p><ul><li>利用冒泡原理(子向父一层层穿透)，把事件绑定到父元素中，以实现事件委托。</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 前端 </category>
-          
-          <category> JavaScript </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Interview </tag>
-            
-            <tag> js </tag>
             
         </tags>
       
@@ -1557,6 +1441,122 @@
           
       </categories>
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HTML Interview</title>
+      <link href="/2020/11/09TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_HTML%E9%9D%A2%E8%AF%95%E9%A2%98/f75a91e9/"/>
+      <url>/2020/11/09TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_HTML%E9%9D%A2%E8%AF%95%E9%A2%98/f75a91e9/</url>
+      
+        <content type="html"><![CDATA[<h1 id="src和href的区别"><a href="#src和href的区别" class="headerlink" title="src和href的区别"></a>src和href的区别</h1><p>src 用于替换当前元素，href 用于在当前文档和引用资源之间确立联系。 </p><ol><li>src 是 source 的缩写，指向<code>外部资源</code>的位置，指向的内容将会嵌入到文档中当前标签所在位置；在请求 src 资源时会将其指向的资源下载并应用到文档内，例如 <code>js 脚本</code>，<code>img 图片</code>和 <code>frame</code> 等元素。 </li><li>href 是 Hypertext Reference 的缩写，指向<code>网络资源</code>所在位置，建立和当前元素（锚点）或当前文档（链接）之间的链接，如果在文档中添加，那么浏览器会识别该文档为 css 文件，就会并行下载资源并且不会停止对当前文档的处理。（异步） 这也是为什么建议使用 link 方式来加载 css，而不是使用@import 方式。</li></ol><h1 id="对HTML语义化的理解"><a href="#对HTML语义化的理解" class="headerlink" title="对HTML语义化的理解"></a>对HTML语义化的理解</h1><p>语义化是指根据内容的结构化（内容语义化），选择合适的标签（代码语义化）。通俗来讲就是用正确的标签做正确的事情。</p><p>语义化的优点：</p><ul><li>对机器友好，带有语义的文字表现力丰富，更适合搜索引擎的爬虫爬取有效信息，<code>有利于SEO</code>。除此之外，语义类还支持读屏软件，根据文章可以自动生成目录；</li><li>对开发者友好，使用语义类标签<code>增强了可读性</code>，结构更加清晰，开发者能清晰的看出网页的结构，便于团队的开发与维护。</li></ul><p>常见的语义化标签：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">header</span>&gt;</span><span class="tag">&lt;/<span class="name">header</span>&gt;</span>  头部</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">nav</span>&gt;</span><span class="tag">&lt;/<span class="name">nav</span>&gt;</span>  导航栏</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">section</span>&gt;</span><span class="tag">&lt;/<span class="name">section</span>&gt;</span>  区块（有语义化的div）</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">main</span>&gt;</span><span class="tag">&lt;/<span class="name">main</span>&gt;</span>  主要区域</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">article</span>&gt;</span><span class="tag">&lt;/<span class="name">article</span>&gt;</span>  主要内容</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">aside</span>&gt;</span><span class="tag">&lt;/<span class="name">aside</span>&gt;</span>  侧边栏</span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">footer</span>&gt;</span><span class="tag">&lt;/<span class="name">footer</span>&gt;</span>  底部</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+          <category> HTML </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Interview </tag>
+            
+            <tag> html(5) </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue Interview</title>
+      <link href="/2020/11/08TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_Vue%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e6/"/>
+      <url>/2020/11/08TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_Vue%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="说一下-vue-生命周期（钩子函数）"><a href="#说一下-vue-生命周期（钩子函数）" class="headerlink" title="说一下 vue 生命周期（钩子函数）"></a>说一下 vue 生命周期（钩子函数）</h1><p>三个阶段 </p><ol><li>挂载阶段：beforeCreate、created、beforeMount、mounted </li><li>更新阶段：beforeUpdate、updated </li><li>销毁阶段：beforeDestroy、destroyed </li></ol><p>每个阶段的特性：</p><ol><li>🎋 beforeCreate（创建前）：数据观测和初始化事件还未开始，此时 data 的响应式追踪、event/watcher 都还没有被设置，也就是说<code>不能访问到 data、computed、watch、methods 上的方法和数据</code>。</li><li>🎋 created（创建后） ：实例创建完成，实例上配置的 options 包括 <code>data、computed、watch、methods 等都配置完成，</code>但是此时渲染得节点还未挂载到 DOM，所以不能访问到 $el 属性。</li><li>🎋 beforeMount（挂载前）：在挂载开始之前被调用，相关的 <code>render 函数首次被调用</code>。实例已完成以下的配置：编译模板，把data里面的数据和模板生成html。此时还没有挂载html到页面上。</li><li>🎋 mounted（挂载后）：在 el被新创建的 vm.$el 替换，并挂载到实例上去之后调用。实例已完成以下的配置：用上面编译好的html内容替换el属性指向的DOM对象。完成模板中的html渲染到html 页面中。此过程中进行ajax交互。</li><li>🎋 beforeUpdate（更新前）：响应式数据更新时调用，此时虽然响应式数据更新了，但是对应的真实 DOM 还没有被渲染。</li><li>🎋 updated（更新后） ：在由于数据更改导致的虚拟DOM重新渲染和打补丁之后调用。此时 DOM 已经根据响应式数据的变化更新了。调用时，组件 DOM已经更新，所以可以执行依赖于DOM的操作。然而在大多数情况下，应该避免在此期间更改状态，因为这可能会导致更新无限循环。该钩子在服务器端渲染期间不被调用。</li><li>🎋 beforeDestroy（销毁前）：实例销毁之前调用。这一步，实例仍然完全可用，this 仍能获取到实例。</li><li>🎋 destroyed（销毁后）：实例销毁后调用。调用后，Vue 实例指示的所有东西都会解绑定，所有的事件监听器会被移除，所有的子实例也会被销毁。该钩子在服务端渲染期间不被调用。</li></ol><h1 id="Vue-子组件和父组件执行顺序"><a href="#Vue-子组件和父组件执行顺序" class="headerlink" title="Vue 子组件和父组件执行顺序"></a>Vue 子组件和父组件执行顺序</h1><p>加载渲染过程：</p><ol><li>父组件 beforeCreate</li><li>父组件 created</li><li>父组件 beforeMount</li><li>子组件 beforeCreate</li><li>子组件 created</li><li>子组件 beforeMount</li><li>子组件 mounted</li><li>父组件 mounted</li></ol><p>更新过程：</p><ol><li>父组件 beforeUpdate</li><li>子组件 beforeUpdate</li><li>子组件 updated</li><li>父组件 updated</li></ol><p>销毁过程：</p><ol><li>父组件 beforeDestroy</li><li>子组件 beforeDestroy</li><li>子组件 destroyed</li><li>父组件 destoryed</li></ol><h1 id="说一下组件通信"><a href="#说一下组件通信" class="headerlink" title="说一下组件通信"></a>说一下组件通信</h1><p>组件通信方式大体有以下 8 种：</p><ol><li>props</li><li>ref</li><li>$emit / $on（自定义事件）</li><li>$children / $parent</li><li>$attrs / $listeners</li><li>$root</li><li>eventbus</li><li>vuex</li></ol><p>组件之间关系划分：</p><p>父子组件：</p><ul><li>props （父传子）</li><li>ref （父传子）</li><li>$emit（子传父）/ $on</li><li>$parent / $children</li><li>$attrs（爷孙之间） / $listeners</li></ul><p>任意组件</p><ul><li>eventbus（全局事件总线）</li><li>vuex</li><li>provide / inject</li><li>$root</li></ul><p>兄弟组件：</p><ul><li>$parent</li><li>$root</li><li>eventbus</li><li>vuex</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Interview </tag>
+            
+            <tag> vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>CSS Interview</title>
+      <link href="/2020/10/21TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_CSS%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e9/"/>
+      <url>/2020/10/21TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_CSS%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e9/</url>
+      
+        <content type="html"><![CDATA[<h1 id="CSS选择器及其优先级及权重计算方式"><a href="#CSS选择器及其优先级及权重计算方式" class="headerlink" title="CSS选择器及其优先级及权重计算方式"></a>CSS选择器及其优先级及权重计算方式</h1><div class="table-container"><table><thead><tr><th>选择器</th><th>格式</th><th>优先级权重</th></tr></thead><tbody><tr><td>id选择器</td><td>#id</td><td>100</td></tr><tr><td>类选择器</td><td>.classname</td><td>10</td></tr><tr><td>属性选择器</td><td>a[ref=”eee”]</td><td>10</td></tr><tr><td>伪类选择器</td><td>li:last-child</td><td>10</td></tr><tr><td>标签选择器</td><td>div</td><td>1</td></tr><tr><td>伪元素选择器</td><td>li:after</td><td>1</td></tr><tr><td>相邻兄弟选择器</td><td>h1+p</td><td>0</td></tr><tr><td>子选择器</td><td>ul&gt;li</td><td>0</td></tr><tr><td>后代选择器</td><td>li a</td><td>0</td></tr><tr><td>通配符选择器</td><td>*</td><td>0</td></tr></tbody></table></div><p>对于选择器的优先级：</p><ul><li>标签选择器、伪元素选择器：1；</li><li>类选择器、伪类选择器、属性选择器：10；</li><li>id 选择器：100；</li><li>内联样式：1000；</li></ul><p>注意事项：</p><ul><li>!important 声明的样式的优先级最高；</li><li>如果优先级相同，则最后出现的样式生效；</li><li>继承得到的样式的优先级最低；</li><li>通用选择器（*）、子选择器（&gt;）和相邻同胞选择器（+）并不在这四个等级中，所以它们的权值都为 0 ；</li><li>样式表的来源不同时，优先级顺序为：内联样式 &gt; 内部样式 &gt; 外部样式 &gt; 浏览器用户自定义样式 &gt; 浏览器默认样式。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> css(3) </tag>
+            
+            <tag> Interview </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>JavaScript Interview</title>
+      <link href="/2020/10/11TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_JavaScript%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e9/"/>
+      <url>/2020/10/11TEMP/%E5%89%8D%E7%AB%AF_%E9%9D%A2%E8%AF%95_JavaScript%E9%9D%A2%E8%AF%95%E9%A2%98/f75e92e9/</url>
+      
+        <content type="html"><![CDATA[<h1 id="两个异步请求数据操作怎么合并"><a href="#两个异步请求数据操作怎么合并" class="headerlink" title="两个异步请求数据操作怎么合并"></a>两个异步请求数据操作怎么合并</h1><blockquote><p>业务代码经常会有 两个不一样的请求，拿到数据后合并成新数组的操作。<br>但是在异步请求中我们不知道哪个请求的回调更快返回，从而使代码的合并时间无法确定。这就需要在两个异步请求都完成后再做数据处理。</p></blockquote><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//定义两个http请求方法</span></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">getList1</span> = (<span class="params"></span>)=&gt;&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">res,rej</span>) =&gt;</span>&#123;</span><br><span class="line">        <span class="comment">//省去get方法获取过程</span></span><br><span class="line">        .<span class="title function_">then</span>(<span class="function">(<span class="params">json</span>) =&gt;</span> <span class="title function_">resolve</span>(json))</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> <span class="title function_">getList2</span> = (<span class="params"></span>)=&gt;&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="title class_">Promise</span>(<span class="function">(<span class="params">res,rej</span>) =&gt;</span>&#123;</span><br><span class="line">        <span class="comment">//省去get方法获取过程</span></span><br><span class="line">        .<span class="title function_">then</span>(<span class="function">(<span class="params">json</span>) =&gt;</span> <span class="title function_">resolve</span>(json))</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="title class_">Promise</span>.<span class="title function_">all</span>([<span class="title function_">getList1</span>(),<span class="title function_">getList2</span>()]).<span class="title function_">then</span>(<span class="function"><span class="params">value</span> =&gt;</span> &#123;</span><br><span class="line">    <span class="comment">//第一个请求的数据</span></span><br><span class="line">    <span class="keyword">const</span> x = value[<span class="number">0</span>];</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//第二个请求的数据</span></span><br><span class="line">    <span class="keyword">const</span> y = value[<span class="number">1</span>];</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//合并操作</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">const</span> i <span class="keyword">of</span> x)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">const</span> k <span class="keyword">of</span> y)&#123;</span><br><span class="line">          <span class="comment">//Todo</span></span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><h1 id="Js-中布尔值为-false-的六种情况"><a href="#Js-中布尔值为-false-的六种情况" class="headerlink" title="Js 中布尔值为 false 的六种情况"></a>Js 中布尔值为 false 的六种情况</h1><ol><li>undefined（未定义，找不到值时出现）</li><li>null（代表空值）</li><li>false（布尔值的false，字符串”false”布尔值为true）</li><li>0（数字0，字符串 “0” 布尔值为 true）</li><li>NaN（无法计算结果时出现，表示”非数值”；但是 typeof NaN === “number”）</li><li>“”（双引号）或 ‘’（单引号）（空字符串，中间有空格时为 true）</li></ol><p>注意：空数组空对象，负值转的布尔值时都为 true </p><h1 id="普通事件绑定和事件流绑定有啥区别（中级）"><a href="#普通事件绑定和事件流绑定有啥区别（中级）" class="headerlink" title="普通事件绑定和事件流绑定有啥区别（中级）"></a>普通事件绑定和事件流绑定有啥区别（中级）</h1><p>普通事件绑定</p><ul><li>如果给同⼀个元素绑定了两次或者多次相同类型的事件，那么后⾯的绑定会<code>覆盖</code>前⾯的绑定。</li><li><code>不支持dom事件流</code>（捕获-目标-冒泡）。</li></ul><p>事件流绑定</p><ul><li>如果说给同⼀个元素绑定了两次或者多次相同类型的事件，所以的绑定将会<code>依次触发</code>。</li><li><code>支持dom事件流</code>（捕获-目标-冒泡）。</li><li>不加<code>on</code>事件。</li></ul><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">addEvent</span>(<span class="params">obj,type,callBack</span>)&#123;</span><br><span class="line">    <span class="keyword">if</span>(obj.<span class="property">addEventListener</span>)&#123;</span><br><span class="line">        obj.<span class="title function_">addEventListener</span>(type,callBack);</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        obj.<span class="title function_">attachEvent</span>(<span class="string">&quot;on&quot;</span>+type,callBack);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">addEvent</span>(<span class="variable language_">document</span>,<span class="string">&quot;click&quot;</span>,<span class="keyword">function</span>(<span class="params"></span>)&#123;<span class="title function_">alert</span>(<span class="string">&quot;兼容写法&quot;</span>)&#125;);</span><br></pre></td></tr></table></figure><h1 id="如何阻止事件冒泡和默认事件（中级）"><a href="#如何阻止事件冒泡和默认事件（中级）" class="headerlink" title="如何阻止事件冒泡和默认事件（中级）"></a>如何阻止事件冒泡和默认事件（中级）</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 阻止默认事件(兼容写法)</span></span><br><span class="line">e.<span class="property">preventdefault</span> ? e.<span class="title function_">preventdefault</span>() : <span class="keyword">return</span> value=<span class="literal">false</span> </span><br><span class="line"><span class="comment">// 阻止事件冒泡(兼容写法)</span></span><br><span class="line">e.<span class="property">stoppropagation</span> ? e.<span class="title function_">stoppropagation</span>() : e.<span class="property">cancelbubble</span>=<span class="literal">true</span></span><br></pre></td></tr></table></figure><h1 id="document-load-和-document-ready-的区别（初级）"><a href="#document-load-和-document-ready-的区别（初级）" class="headerlink" title="document load 和 document ready 的区别（初级）"></a>document load 和 document ready 的区别（初级）</h1><ul><li>Document.onload 是在<code>结构和样式加载完</code>才执⾏ js。</li><li>window.onload：不仅仅要在<code>结构和样式加载完</code>，还要执⾏完所有的<code>样式、图片</code>这些资源文件，全部 加载完才会触发window.onload事件。</li><li>Document.ready 原⽣种没有这个⽅法，jquery 中有 <code>$().ready(function)</code>。</li></ul><h1 id="undefined-的三种情况（初级）"><a href="#undefined-的三种情况（初级）" class="headerlink" title="undefined 的三种情况（初级）"></a>undefined 的三种情况（初级）</h1><ol><li>⼀个变量定义了却没有被赋值。</li><li>⼀个对象上不存在的属性或者⽅法。</li><li>⼀个数组中没有被赋值的元素。</li></ol><h1 id="对象模型-BOM-里常用的对象（初级）"><a href="#对象模型-BOM-里常用的对象（初级）" class="headerlink" title="对象模型 BOM 里常用的对象（初级）"></a>对象模型 BOM 里常用的对象（初级）</h1><ul><li>Window</li><li>document</li><li>location</li><li>screen</li><li>history</li><li>navigator</li></ul><h1 id="会造成内存泄漏的情况（中级）"><a href="#会造成内存泄漏的情况（中级）" class="headerlink" title="会造成内存泄漏的情况（中级）"></a>会造成内存泄漏的情况（中级）</h1><ol><li>setTimeout的第⼀个参数使⽤字符串⽽非函数的话，会引发内存泄漏。</li><li>闭包</li></ol><h1 id="什么是-jsonp（中级）"><a href="#什么是-jsonp（中级）" class="headerlink" title="什么是 jsonp（中级）"></a>什么是 jsonp（中级）</h1><ul><li>jsonp 并不是⼀种数据格式，而json是一种数据格式。</li><li>jsonp 是⽤来<code>解决跨域获取数据</code>的⼀种解决⽅案。<br>具体是通过<code>动态创建script标</code>，通过标签的src属性获取js文件中的js脚本，<br>该脚本的内容是⼀个函数调⽤，参数就是服务器返回的数据，为了处理这些返回的数据，需要事先在⻚⾯定义好回调函数，本质上使⽤的并不是ajax技术。</li></ul><h1 id="生成随机数（初级）"><a href="#生成随机数（初级）" class="headerlink" title="生成随机数（初级）"></a>生成随机数（初级）</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="title class_">Math</span>.<span class="title function_">round</span>(<span class="title class_">Math</span>.<span class="title function_">random</span>()*差值)+最小的值</span><br></pre></td></tr></table></figure><h1 id="link-与-import-的区别（初级）"><a href="#link-与-import-的区别（初级）" class="headerlink" title="link 与 import 的区别（初级）"></a>link 与 import 的区别（初级）</h1><ul><li>link 不仅仅可以加载 css，import 只能加载css。</li><li>link 同时加载，import 先载入页面内容。</li><li>link 无兼容问题。</li><li>link ⽀持使⽤ Javascript 控制 DOM 去改变样式；⽽ @import不⽀持。</li></ul><h1 id="如何优化自己的代码（中级）"><a href="#如何优化自己的代码（中级）" class="headerlink" title="如何优化自己的代码（中级）"></a>如何优化自己的代码（中级）</h1><ul><li>重复使用。</li><li>避免过多使用全局变量。</li><li>闭包中变量的释放。</li><li>适当的注释。</li></ul><h1 id="什么是-DOM-事件流？什么是事件委托-（中级）"><a href="#什么是-DOM-事件流？什么是事件委托-（中级）" class="headerlink" title="什么是 DOM 事件流？什么是事件委托?（中级）"></a>什么是 DOM 事件流？什么是事件委托?（中级）</h1><p>DOM 事件流</p><ul><li>分为三个阶段<ul><li>捕获阶段</li><li>目标阶段</li><li>冒泡阶段</li></ul></li><li>在 addeventListener() 的第三个参数 useCapture 设为 true，就会在捕获阶段运行，默认是false冒泡。</li></ul><p>事件委托</p><ul><li>利用冒泡原理(子向父一层层穿透)，把事件绑定到父元素中，以实现事件委托。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Interview </tag>
+            
+            <tag> js </tag>
+            
+        </tags>
       
     </entry>
     
