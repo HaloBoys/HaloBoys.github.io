@@ -11,12 +11,16 @@
   font-weight: bold;
 }
 
+.toc-child {
+  font-size: .3733rem;
+}
+
 /* 修复一下对侧栏电子钟的覆盖 */
-.card-widget.card-clock {
+/* .card-widget.card-clock {
   overflow: hidden !important;
   border-radius: 8px !important;
   margin-top: 0px !important;
-}
+} */
 
 /* 定义标题栏的定位方式为绝对定位 */
 .item-headline {
@@ -122,7 +126,7 @@
 /* nav 圆角 */
 
 #nav {
-  border-radius: 0px 0px 12px 12px;
+  /* border-radius: 0px 0px 12px 12px; */
 }
 
 #footer-wrap,
@@ -186,11 +190,6 @@ body {
   border-radius: 10px;
 }
 
-/* 搜索框自定义样式 */
-
-.search-dialog {
-  height: 1000px;
-}
 
 #article-container code {
   /* font-size: 16px; */
