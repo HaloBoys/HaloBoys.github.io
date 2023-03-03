@@ -12,7 +12,7 @@
 }
 
 .toc-child {
-  font-size: .3733rem;
+  font-size: .4267rem;
 }
 
 /* 修复一下对侧栏电子钟的覆盖 */
@@ -115,19 +115,13 @@
   background: rgba(255, 255, 255, 0.9);
 }
 
-
-
-/* 顶部菜单 */
-
-
-
 /* 我的修改 */
 
 /* nav 圆角 */
 
-#nav {
-  /* border-radius: 0px 0px 12px 12px; */
-}
+/* #nav {
+  border-radius: 0px 0px 12px 12px;
+} */
 
 #footer-wrap,
 .show {
@@ -198,4 +192,41 @@ body {
 
 #article-container a {
   margin-left: 5px;
+}
+
+/* 本地搜索 */
+
+.search-dialog {
+  max-height: 600px;
+  overflow: scroll;
+}
+
+/* 标题文字大小 */
+
+.post-title {
+  font-size: 2em !important;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+h6 {
+  font-size: 1em;
 }
