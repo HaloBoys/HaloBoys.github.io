@@ -3364,6 +3364,7 @@ h1.page-title + .tag-cloud-list {
 }
 #aside-content .card-categories .card-category-list.child {
   padding: 0 0 0 16px;
+  display: none;
 }
 #aside-content .card-categories .card-category-list > .parent > a .card-category-list-name {
   width: 70% !important;

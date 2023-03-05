@@ -661,6 +661,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const toggleCardCategory = function () {
     const $cardCategory = document.querySelectorAll('#aside-cat-list .card-category-list-item.parent i')
     if ($cardCategory.length) {
+      console.log($cardCategory);
       $cardCategory.forEach(function (item) {
         item.addEventListener('click', function (e) {
           e.preventDefault()
