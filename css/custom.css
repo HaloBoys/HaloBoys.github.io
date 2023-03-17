@@ -12,7 +12,7 @@
 }
 
 .toc-child {
-  font-size: .4267rem;
+  font-size: .8rem;
 }
 
 /* 修复一下对侧栏电子钟的覆盖 */
@@ -184,12 +184,6 @@ body {
   border-radius: 10px;
 }
 
-
-#article-container code {
-  /* font-size: 16px; */
-  color: #61afef
-}
-
 #article-container a {
   margin-left: 5px;
 }
@@ -229,4 +223,15 @@ h5 {
 
 h6 {
   font-size: 1em;
+}
+
+/* 文章图标间隙调整 */
+
+.article-meta-separator,
+.fa-angle-right {
+  padding: 0 5px;
+}
+
+.fa-inbox {
+  padding: 0 5px 0 0;
 }
