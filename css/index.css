@@ -1345,7 +1345,7 @@ canvas:not(#ribbon-canvas),
   --tab-button-active-bg: #fff;
   --card-bg: #fff;
   --sidebar-bg: #f6f8fa;
-  --btn-hover-color: #24292e;
+  --btn-hover-color: #fc5c65;
   --btn-color: #fff;
   --btn-bg: #b6b6b7;
   --text-bg-hover: rgba(182,182,183,0.7);
@@ -1359,7 +1359,7 @@ canvas:not(#ribbon-canvas),
   --toc-link-color: #666261;
   --card-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.05);
   --card-hover-box-shadow: 0 3px 8px 6px rgba(7,17,27,0.09);
-  --pseudo-hover: #24292e;
+  --pseudo-hover: #fc5c65;
   --headline-presudo: #a0a0a0;
   --scrollbar-color: #3b4252;
 }
@@ -1793,48 +1793,6 @@ figure.highlight pre .javascript .function {
 }
 #article-container .gist table td {
   border: none;
-}
-#article-container figure.highlight {
-  margin: 0 0 24px;
-  border-radius: 7px;
-  -webkit-box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
-  box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
-  -webkit-transform: translateZ(0);
-}
-#article-container figure.highlight .highlight-tools:after {
-  position: absolute;
-  left: 14px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #fc625d;
-  -webkit-box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-  content: ' ';
-}
-#article-container figure.highlight .highlight-tools .expand {
-  right: 0;
-}
-#article-container figure.highlight .highlight-tools .expand.closed {
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  transition: all 0.3s;
-  -webkit-transform: rotate(90deg) !important;
-  -moz-transform: rotate(90deg) !important;
-  -o-transform: rotate(90deg) !important;
-  -ms-transform: rotate(90deg) !important;
-  transform: rotate(90deg) !important;
-}
-#article-container figure.highlight .highlight-tools .expand ~ .copy-notice {
-  right: 3.45em;
-}
-#article-container figure.highlight .highlight-tools .expand ~ .copy-button {
-  right: 2.1em;
-}
-#article-container figure.highlight .highlight-tools .code-lang {
-  left: 75px;
 }
 #article-container .code-expand-btn {
   position: absolute;
@@ -5245,7 +5203,7 @@ h1.page-title + .tag-cloud-list {
 #waline-wrap {
   --waline-font-size: 1.1em;
   --waline-theme-color: #b6b6b7;
-  --waline-active-color: #24292e;
+  --waline-active-color: #fc5c65;
 }
 #waline-wrap .vuser {
   -webkit-transition: all 0.5s;

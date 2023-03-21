@@ -148,7 +148,8 @@
 }
 
 body {
-  font-family: 'Monaco', 'Chalk', sans-serif;
+  font-family: 'Monaco', 'Chalk', "PingFang SC", sans-serif;
+  /* font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", sans-serif !important; */
 }
 
 /* 更改文章 h1~6 级标题前 icon 图标 */
@@ -198,7 +199,10 @@ body {
 /* 标题文字大小 */
 
 .post-title {
-  font-size: 2em !important;
+  font-size: 2.3em !important;
+  color: #fc5c65 !important;
+  margin-bottom: 20px;
+  font-family: Menlo, "PingFang SC", "Microsoft YaHei", sans-serif !important;
 }
 
 h1 {
@@ -227,6 +231,10 @@ h6 {
 
 /* 文章图标间隙调整 */
 
+.far {
+  padding: 0 5px !important;
+}
+
 .article-meta-separator,
 .fa-angle-right {
   padding: 0 5px;
@@ -234,4 +242,31 @@ h6 {
 
 .fa-inbox {
   padding: 0 5px 0 0;
+}
+
+/* 代码块字体 */
+
+#article-container pre,
+#article-container code {
+  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", sans-serif !important;
+}
+
+/* layout 容器 */
+
+.layout#content-inner {
+  max-width: 1400px;
+}
+
+/* post title and meta */
+
+
+#post > #post-info .post-title {
+    margin-top: -20px;
+    border-bottom: none !important;
+}
+
+#post-info #post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
