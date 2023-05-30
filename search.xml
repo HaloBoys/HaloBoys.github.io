@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>金蝶k3wise绿色版添加用户</title>
+      <link href="/2023/05/29ERP/ERP_%E9%87%91%E8%9D%B6k3wise%E7%BB%BF%E8%89%B2%E7%89%88%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7/9qxci9cv/"/>
+      <url>/2023/05/29ERP/ERP_%E9%87%91%E8%9D%B6k3wise%E7%BB%BF%E8%89%B2%E7%89%88%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7/9qxci9cv/</url>
+      
+        <content type="html"><![CDATA[<ol><li>使用管理员账号登陆系统，添加职员</li><li>在用户管理中添加用户选择第一步添加的职员<br><img src="https://raw.githubusercontent.com/HaloBoys/PicGoMyDevice_23/main/img/20230529152205.png" alt="20230529152205"></li><li>打开<code>金蝶 K3 WISE 用户管理</code>程序，连接服务器，读取刚才添加的用户，模块全选注册并激活<br><img src="https://raw.githubusercontent.com/HaloBoys/PicGoMyDevice_23/main/img/20230529152427.png" alt="20230529152427"></li><li>删除第二步添加的用户</li><li>点击左上角的用户导入即可<br><img src="https://raw.githubusercontent.com/HaloBoys/PicGoMyDevice_23/main/img/20230529152706.png" alt="20230529152706"></li><li>权限根据企业中的用户角色进行分配</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> ERP </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> kingdee </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>20230523 潘老师培训记录</title>
       <link href="/2023/05/23ERP/ERP_20230523%20%E6%BD%98%E8%80%81%E5%B8%88%E5%9F%B9%E8%AE%AD%E8%AE%B0%E5%BD%95/78jfs7pz/"/>
       <url>/2023/05/23ERP/ERP_20230523%20%E6%BD%98%E8%80%81%E5%B8%88%E5%9F%B9%E8%AE%AD%E8%AE%B0%E5%BD%95/78jfs7pz/</url>
