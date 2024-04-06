@@ -1364,6 +1364,10 @@ canvas:not(#ribbon-canvas),
   --scrollbar-color: #3b4252;
 }
 body {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
   position: relative;
   min-height: 100%;
   background: var(--global-bg);
