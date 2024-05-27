@@ -31,6 +31,33 @@
     
     
     <entry>
+      <title>KOK-ORDER</title>
+      <link href="/2024/04/07TodoList%20KOK-ORDER/810aabb4/"/>
+      <url>/2024/04/07TodoList%20KOK-ORDER/810aabb4/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Sorry, this password doesn't look right. Please try again." data-whm="Sorry, this article cannot be verified, but you can still see the decrypted content.">  <script id="hbeData" type="hbeData" data-hmacdigest="91683ee064c6fefe6bbd73e8cf9b874b7810244894cfaec5f15b525b5e62cd12">176af5f71c6ac5419ca35683f9a93d1dcd2899269e20d9804e62c5de4432615ae43bbb62249d5c9c0e1872edc79b8c87aee094f018b8fced4676d2596a2a1ffa82ded0de89ddfe322e49cbad79a9b792b40371e1c6d871387a1b95bd2d9edbd3a829b65b8b73e328837a3a9a2475b8f78c202c96b5bc89f825ab216511a4f827ac04bcd06ebda001a9530a7b100d57c1997f3fcca179f5c8a7b220c083fe2ceea0008a7a7a7ff5f7dfe6a7c1fd5369aa3afedbb058ebde1a2e780df6220eb8c77da07a09274588d828ec44fd6764a0b9550a66d7fa2b06a1433d03ffcd39a651b54280ac128a894569bb56a1a34870b14b856cbca56521af8053ac91810e7ec00a1c51685baa4ce91f68ce5d4eaed2a9c55ae9c70eb52b50fd31af7535135f75fa992f8cbab294473e3e8ec0541945a206aec5dc7599d7b45f615db9adab31a2541cb076e9dd35951365b9621c300a7588ab27df78d37769f89b4ae7cf8bdcef271bd19e2eed2549f9702126eccb02d1f79ae93ed675b61e6f203560eb8824a33cac49b824f86991ca372b6e8070316e</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-blink">      <input class="hbe hbe-input-field hbe-input-field-blink" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-blink" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-blink" data-content="Enter Password.">Enter Password.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+          <category> Todo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Private </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>ERP 基础</title>
       <link href="/2024/04/02ERP%EF%BC%88%E5%9F%BA%E7%A1%80%EF%BC%89/ERP_%E5%9F%BA%E7%A1%80/12axc7pz/"/>
       <url>/2024/04/02ERP%EF%BC%88%E5%9F%BA%E7%A1%80%EF%BC%89/ERP_%E5%9F%BA%E7%A1%80/12axc7pz/</url>
@@ -1086,9 +1113,9 @@
           
           <category> 工具 </category>
           
-          <category> 前端 </category>
-          
           <category> 手册 </category>
+          
+          <category> 前端 </category>
           
       </categories>
       
