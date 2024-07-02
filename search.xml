@@ -786,18 +786,16 @@
     
     
     <entry>
-      <title>Windows C 盘清理</title>
-      <link href="/2023/02/11%E6%8A%98%E8%85%BE/%E6%8A%98%E8%85%BE_C%E7%9B%98%E6%B8%85%E7%90%86/f35vv2e6/"/>
-      <url>/2023/02/11%E6%8A%98%E8%85%BE/%E6%8A%98%E8%85%BE_C%E7%9B%98%E6%B8%85%E7%90%86/f35vv2e6/</url>
+      <title>Windows 性能优化</title>
+      <link href="/2023/02/11%E5%B7%A5%E5%85%B7/%E5%B7%A5%E5%85%B7_Windows%20%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/f35vv2e6/"/>
+      <url>/2023/02/11%E5%B7%A5%E5%85%B7/%E5%B7%A5%E5%85%B7_Windows%20%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/f35vv2e6/</url>
       
         <content type="html"><![CDATA[<h1 id="清理缓存文件"><a href="#清理缓存文件" class="headerlink" title="清理缓存文件"></a>清理缓存文件</h1><ol><li>Windows +R打开运行，然后输入 <code>%temp%</code><br><img src="https://raw.githubusercontent.com/HaloBoys/PicGoMyDevice_23/main/img/20230311190246.png" alt="20230311190246"></li><li>打开临时文件夹，这里的文件都是可以清理的<br><img src="https://raw.githubusercontent.com/HaloBoys/PicGoMyDevice_23/main/img/20230311190348.png" alt="20230311190348"></li><li>Ctrl+A全选，Shift+delete直接永久删除</li></ol><h1 id="磁盘清理"><a href="#磁盘清理" class="headerlink" title="磁盘清理"></a>磁盘清理</h1><ol><li>在我的电脑中，选中C盘，右键 —&gt; 属性，点击磁盘清理<br><img src="https://raw.githubusercontent.com/HaloBoys/PicGoMyDevice_23/main/img/20230311190605.png" alt="20230311190605"></li><li>这里的文件都是可以直接删除的，全选—&gt; 直接删除即可</li></ol><h1 id="休眠文件"><a href="#休眠文件" class="headerlink" title="休眠文件"></a>休眠文件</h1><blockquote><p>hiberfil 休眠文件，简单来说就是，你关机时会将所有内存中的数据，写入到硬盘，然后再关闭系统，在下次启动开机时，将保持的数据在写回内存。<br>被保存的数据就是休眠文件，笔记本用户可能会用到此功能。但拥有同样功能的<code>睡眠启动</code>更快（就是不能关闭系统。）</p></blockquote><p>关闭方式：</p><ol><li>管理员身份打开运行</li><li>输入<code>powercfg -h off</code> 指令即可关闭休眠文件</li><li>如果后面又要用到休眠功能，只需要将 off 改为 on 即可再次打开该功能，没有任何损失。</li></ol><h1 id="不要将软件安装到C盘"><a href="#不要将软件安装到C盘" class="headerlink" title="不要将软件安装到C盘"></a>不要将软件安装到C盘</h1><p>很多软件在安装时，会默认安装至C盘。</p><p>建议在其他盘符（C盘以外）中，安装软件，因为软件一般会在当前目录中生成缓存文件。</p><p>安装至其他盘，可大大降低C盘爆满速度！</p><h1 id="清理临时文件"><a href="#清理临时文件" class="headerlink" title="清理临时文件"></a>清理临时文件</h1><ol><li>WIN + I 快捷键打开设置在设置中搜索<code>存储</code>找到临时文件选项<br><img src="https://raw.githubusercontent.com/HaloBoys/PicGoMyDevice_23/main/img/20230311191539.png" alt="20230311191539"></li><li>这里的文件都是可以清理的，删除文件即可<br><img src="https://raw.githubusercontent.com/HaloBoys/PicGoMyDevice_23/main/img/20230311191613.png" alt="20230311191613"></li></ol><h1 id="清理软件缓存"><a href="#清理软件缓存" class="headerlink" title="清理软件缓存"></a>清理软件缓存</h1><p>很多软件默认将缓存保存在C盘，毫无疑问，大大加快了C盘的爆满速度，这里微信为例。</p><ol><li>找到微信文件管理界面<br><img src="https://raw.githubusercontent.com/HaloBoys/PicGoMyDevice_23/main/img/20230311191825.png" alt="20230311191825"></li><li>点击更改，选择一个非C盘的路径。</li></ol>]]></content>
       
       
       <categories>
           
-          <category> 折腾 </category>
-          
-          <category> 性能优化 </category>
+          <category> 工具 </category>
           
       </categories>
       
